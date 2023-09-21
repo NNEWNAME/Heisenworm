@@ -49,7 +49,7 @@ def malicious_code():
 
 def grow():
     for size in range(1, 11):
-        heisenworm = "     __    \n  __|  |__ \n*--(n_n)_)_)_)_)" + "_)" * (size - 1)
+        heisenworm = "     __    \n  __|__|__ \n*--(n_n)_)_)_)_)" + "_)" * (size - 1)
         print(heisenworm)
         time.sleep(1)
 
